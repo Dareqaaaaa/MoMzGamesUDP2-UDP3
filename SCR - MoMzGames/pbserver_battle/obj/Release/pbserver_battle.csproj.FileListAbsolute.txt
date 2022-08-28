@@ -1,0 +1,446 @@
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\pbserver_battle.exe.config
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\pbserver_battle.exe
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\pbserver_battle.pdb
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\CrashReporter.NET.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\Npgsql.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\SharpDX.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\SharpDX.Mathematics.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\CrashReporter.NET.pdb
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\CrashReporter.NET.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\Npgsql.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\SharpDX.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\SharpDX.Mathematics.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\da\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\de\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\es\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\fr\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\it\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\nl\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\pl\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\ru\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\sv\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\tr\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\obj\Release\pbserver_battle.csprojResolveAssemblyReference.cache
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\obj\Release\pbserver_battle.exe
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\obj\Release\pbserver_battle.pdb
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\ko\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\pbserver_battle.exe.config
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\pbserver_battle.exe
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\pbserver_battle.pdb
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\CrashReporter.NET.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\Npgsql.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\SharpDX.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\SharpDX.Mathematics.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\CrashReporter.NET.pdb
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\CrashReporter.NET.xml
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\CrashReporter.NET.dll.config
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\Npgsql.xml
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\SharpDX.xml
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\SharpDX.Mathematics.xml
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\da\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\de\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\es\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\fr\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\it\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\ko\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\nl\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\pl\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\ru\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\sv\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\bin\Release\tr\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\obj\Release\pbserver_battle.exe
+C:\Users\clark\Downloads\#\1712192105\pbserver_udp3\obj\Release\pbserver_battle.pdb
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\pbserver_battle.exe.config
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\pbserver_battle.exe
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\pbserver_battle.pdb
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\CrashReporter.NET.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\Npgsql.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\SharpDX.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\SharpDX.Mathematics.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\CrashReporter.NET.pdb
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\CrashReporter.NET.xml
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\CrashReporter.NET.dll.config
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\Npgsql.xml
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\SharpDX.xml
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\SharpDX.Mathematics.xml
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\da\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\de\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\es\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\fr\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\it\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\ko\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\nl\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\pl\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\ru\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\sv\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\bin\Release\tr\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\obj\Release\pbserver_battle.exe
+C:\Users\clark\Downloads\#\1712272143\pbserver_udp3\obj\Release\pbserver_battle.pdb
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\pbserver_battle.exe.config
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\pbserver_battle.exe
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\pbserver_battle.pdb
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\CrashReporter.NET.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\Npgsql.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\SharpDX.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\SharpDX.Mathematics.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\CrashReporter.NET.pdb
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\CrashReporter.NET.xml
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\CrashReporter.NET.dll.config
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\Npgsql.xml
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\SharpDX.xml
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\SharpDX.Mathematics.xml
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\da\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\de\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\es\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\fr\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\it\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\ko\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\nl\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\pl\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\ru\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\sv\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\bin\Release\tr\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\obj\Release\pbserver_battle.exe
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\obj\Release\pbserver_battle.pdb
+C:\Users\clark\Downloads\#\1801111938\pbserver_udp3\obj\Release\pbserver_battle.csprojResolveAssemblyReference.cache
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\pbserver_battle.exe.config
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\pbserver_battle.exe
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\pbserver_battle.pdb
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\CrashReporter.NET.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\Npgsql.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\SharpDX.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\SharpDX.Mathematics.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\CrashReporter.NET.pdb
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\CrashReporter.NET.xml
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\CrashReporter.NET.dll.config
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\Npgsql.xml
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\SharpDX.xml
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\SharpDX.Mathematics.xml
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\da\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\de\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\es\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\fr\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\it\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\ko\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\nl\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\pl\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\ru\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\sv\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\bin\Release\tr\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\obj\Release\pbserver_battle.csprojResolveAssemblyReference.cache
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\obj\Release\pbserver_battle.exe
+C:\Users\clark\Downloads\#\ReconPB\1802161607\pbserver_udp3\obj\Release\pbserver_battle.pdb
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\pbserver_battle.exe.config
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\pbserver_battle.exe
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\pbserver_battle.pdb
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\CrashReporter.NET.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\Npgsql.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\SharpDX.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\SharpDX.Mathematics.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\CrashReporter.NET.pdb
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\CrashReporter.NET.xml
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\CrashReporter.NET.dll.config
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\Npgsql.xml
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\SharpDX.xml
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\SharpDX.Mathematics.xml
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\da\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\de\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\es\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\fr\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\it\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\ko\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\nl\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\pl\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\ru\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\sv\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\bin\Release\tr\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\obj\Release\pbserver_battle.exe
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\obj\Release\pbserver_battle.pdb
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_udp3\obj\Release\pbserver_battle.csprojResolveAssemblyReference.cache
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\pbserver_battle.exe.config
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\pbserver_battle.exe
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\pbserver_battle.pdb
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\CrashReporter.NET.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\Npgsql.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\SharpDX.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\SharpDX.Mathematics.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\CrashReporter.NET.pdb
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\CrashReporter.NET.xml
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\CrashReporter.NET.dll.config
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\Npgsql.xml
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\SharpDX.xml
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\SharpDX.Mathematics.xml
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\da\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\de\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\es\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\fr\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\it\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\ko\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\nl\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\pl\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\ru\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\sv\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\bin\Release\tr\CrashReporter.NET.resources.dll
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\obj\Release\pbserver_battle.exe
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\obj\Release\pbserver_battle.pdb
+C:\Users\clark\Downloads\#\ReconPB\1803291637\pbserver_battle\obj\Release\pbserver_battle.csprojResolveAssemblyReference.cache
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\pbserver_battle.exe.config
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\pbserver_battle.exe
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\pbserver_battle.pdb
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\CrashReporter.NET.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\Npgsql.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\SharpDX.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\SharpDX.Mathematics.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\CrashReporter.NET.pdb
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\CrashReporter.NET.xml
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\CrashReporter.NET.dll.config
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\Npgsql.xml
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\SharpDX.xml
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\SharpDX.Mathematics.xml
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\da\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\de\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\es\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\fr\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\it\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\ko\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\nl\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\pl\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\ru\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\sv\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\bin\Release\tr\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\obj\Release\pbserver_battle.csproj.CopyComplete
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\obj\Release\pbserver_battle.exe
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\obj\Release\pbserver_battle.pdb
+C:\Users\John\Downloads\#\1804211518\pbserver_battle\obj\Release\pbserver_battle.csprojResolveAssemblyReference.cache
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\pbserver_battle.exe.config
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\pbserver_battle.exe
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\pbserver_battle.pdb
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\CrashReporter.NET.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\Npgsql.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\SharpDX.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\SharpDX.Mathematics.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\CrashReporter.NET.pdb
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\CrashReporter.NET.xml
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\CrashReporter.NET.dll.config
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\Npgsql.xml
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\SharpDX.xml
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\SharpDX.Mathematics.xml
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\da\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\de\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\es\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\fr\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\it\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\ko\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\nl\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\pl\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\ru\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\sv\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\bin\Release\tr\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\obj\Release\pbserver_battle.csproj.CopyComplete
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\obj\Release\pbserver_battle.exe
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\obj\Release\pbserver_battle.pdb
+C:\Users\John\Downloads\#\1805120203\pbserver_battle\obj\Release\pbserver_battle.csprojResolveAssemblyReference.cache
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\pbserver_battle.exe.config
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\pbserver_battle.exe
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\pbserver_battle.pdb
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\CrashReporter.NET.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\Npgsql.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\SharpDX.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\SharpDX.Mathematics.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\CrashReporter.NET.pdb
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\CrashReporter.NET.xml
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\CrashReporter.NET.dll.config
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\Npgsql.xml
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\SharpDX.xml
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\SharpDX.Mathematics.xml
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\da\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\de\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\es\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\fr\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\it\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\ko\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\nl\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\pl\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\ru\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\sv\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\bin\Release\tr\CrashReporter.NET.resources.dll
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\obj\Release\pbserver_battle.csprojAssemblyReference.cache
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\obj\Release\pbserver_battle.csproj.CopyComplete
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\obj\Release\pbserver_battle.exe
+C:\Users\John\Downloads\#\1805130603\pbserver_battle\obj\Release\pbserver_battle.pdb
+D:\#\1805261550\pbserver_battle\bin\Release\pbserver_battle.exe.config
+D:\#\1805261550\pbserver_battle\bin\Release\pbserver_battle.exe
+D:\#\1805261550\pbserver_battle\bin\Release\pbserver_battle.pdb
+D:\#\1805261550\pbserver_battle\bin\Release\CrashReporter.NET.dll
+D:\#\1805261550\pbserver_battle\bin\Release\Npgsql.dll
+D:\#\1805261550\pbserver_battle\bin\Release\SharpDX.dll
+D:\#\1805261550\pbserver_battle\bin\Release\SharpDX.Mathematics.dll
+D:\#\1805261550\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\#\1805261550\pbserver_battle\bin\Release\CrashReporter.NET.pdb
+D:\#\1805261550\pbserver_battle\bin\Release\CrashReporter.NET.xml
+D:\#\1805261550\pbserver_battle\bin\Release\CrashReporter.NET.dll.config
+D:\#\1805261550\pbserver_battle\bin\Release\Npgsql.xml
+D:\#\1805261550\pbserver_battle\bin\Release\SharpDX.xml
+D:\#\1805261550\pbserver_battle\bin\Release\SharpDX.Mathematics.xml
+D:\#\1805261550\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.xml
+D:\#\1805261550\pbserver_battle\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+D:\#\1805261550\pbserver_battle\obj\Release\pbserver_battle.csproj.CopyComplete
+D:\#\1805261550\pbserver_battle\obj\Release\pbserver_battle.exe
+D:\#\1805261550\pbserver_battle\obj\Release\pbserver_battle.pdb
+D:\#\1805261550\pbserver_battle\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\#\1805261550\pbserver_battle\bin\Release\System.ValueTuple.dll
+D:\#\1805261550\pbserver_battle\bin\Release\Npgsql.pdb
+D:\#\1805261550\pbserver_battle\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+D:\#\1805261550\pbserver_battle\bin\Release\System.ValueTuple.xml
+D:\#\1806180020\pbserver_battle\bin\Release\pbserver_battle.exe.config
+D:\#\1806180020\pbserver_battle\bin\Release\pbserver_battle.exe
+D:\#\1806180020\pbserver_battle\bin\Release\pbserver_battle.pdb
+D:\#\1806180020\pbserver_battle\bin\Release\CrashReporter.NET.dll
+D:\#\1806180020\pbserver_battle\bin\Release\Npgsql.dll
+D:\#\1806180020\pbserver_battle\bin\Release\SharpDX.dll
+D:\#\1806180020\pbserver_battle\bin\Release\SharpDX.Mathematics.dll
+D:\#\1806180020\pbserver_battle\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\#\1806180020\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\#\1806180020\pbserver_battle\bin\Release\System.ValueTuple.dll
+D:\#\1806180020\pbserver_battle\bin\Release\CrashReporter.NET.pdb
+D:\#\1806180020\pbserver_battle\bin\Release\CrashReporter.NET.xml
+D:\#\1806180020\pbserver_battle\bin\Release\CrashReporter.NET.dll.config
+D:\#\1806180020\pbserver_battle\bin\Release\Npgsql.pdb
+D:\#\1806180020\pbserver_battle\bin\Release\Npgsql.xml
+D:\#\1806180020\pbserver_battle\bin\Release\SharpDX.xml
+D:\#\1806180020\pbserver_battle\bin\Release\SharpDX.Mathematics.xml
+D:\#\1806180020\pbserver_battle\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+D:\#\1806180020\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.xml
+D:\#\1806180020\pbserver_battle\bin\Release\System.ValueTuple.xml
+D:\#\1806180020\pbserver_battle\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+D:\#\1806180020\pbserver_battle\obj\Release\pbserver_battle.csproj.CopyComplete
+D:\#\1806180020\pbserver_battle\obj\Release\pbserver_battle.exe
+D:\#\1806180020\pbserver_battle\obj\Release\pbserver_battle.pdb
+D:\#\1806180020\pbserver_battle\obj\Release\pbserver_battle.csprojAssemblyReference.cache
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\pbserver_battle.exe.config
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\pbserver_battle.exe
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\pbserver_battle.pdb
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\CrashReporter.NET.dll
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\Npgsql.dll
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\SharpDX.dll
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\SharpDX.Mathematics.dll
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\System.ValueTuple.dll
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\CrashReporter.NET.pdb
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\CrashReporter.NET.xml
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\CrashReporter.NET.dll.config
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\Npgsql.pdb
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\Npgsql.xml
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\SharpDX.xml
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\SharpDX.Mathematics.xml
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.xml
+D:\#\1806180020 - (For Sale)\pbserver_battle\bin\Release\System.ValueTuple.xml
+D:\#\1806180020 - (For Sale)\pbserver_battle\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+D:\#\1806180020 - (For Sale)\pbserver_battle\obj\Release\pbserver_battle.csproj.CopyComplete
+D:\#\1806180020 - (For Sale)\pbserver_battle\obj\Release\pbserver_battle.exe
+D:\#\1806180020 - (For Sale)\pbserver_battle\obj\Release\pbserver_battle.pdb
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\pbserver_battle.exe.config
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\pbserver_battle.exe
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\pbserver_battle.pdb
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\CrashReporter.NET.dll
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\Npgsql.dll
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\SharpDX.dll
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\SharpDX.Mathematics.dll
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\System.ValueTuple.dll
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\CrashReporter.NET.pdb
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\CrashReporter.NET.xml
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\CrashReporter.NET.dll.config
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\Npgsql.pdb
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\Npgsql.xml
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\SharpDX.xml
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\SharpDX.Mathematics.xml
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.xml
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\bin\Release\System.ValueTuple.xml
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\obj\Release\pbserver_battle.csprojAssemblyReference.cache
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\obj\Release\pbserver_battle.csproj.CopyComplete
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\obj\Release\pbserver_battle.exe
+D:\#\1806180020 - (For Sale)  (Yuri)\SCR\pbserver_battle\obj\Release\pbserver_battle.pdb
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\pbserver_battle.exe.config
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\pbserver_battle.exe
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\pbserver_battle.pdb
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\CrashReporter.NET.dll
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\Npgsql.dll
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\SharpDX.dll
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\SharpDX.Mathematics.dll
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\System.ValueTuple.dll
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\CrashReporter.NET.pdb
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\CrashReporter.NET.xml
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\CrashReporter.NET.dll.config
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\Npgsql.pdb
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\Npgsql.xml
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\SharpDX.xml
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\SharpDX.Mathematics.xml
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.xml
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\bin\Release\System.ValueTuple.xml
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\obj\Release\pbserver_battle.csproj.CopyComplete
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\obj\Release\pbserver_battle.exe
+D:\#\1806180020 - (For Sale)  (Omer)\SCR\pbserver_battle\obj\Release\pbserver_battle.pdb
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\pbserver_battle.exe.config
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\pbserver_battle.exe
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\pbserver_battle.pdb
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\CrashReporter.NET.dll
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\Npgsql.dll
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\SharpDX.dll
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\SharpDX.Mathematics.dll
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\System.ValueTuple.dll
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\CrashReporter.NET.pdb
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\CrashReporter.NET.xml
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\CrashReporter.NET.dll.config
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\Npgsql.pdb
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\Npgsql.xml
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\SharpDX.xml
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\SharpDX.Mathematics.xml
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\System.Threading.Tasks.Extensions.xml
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\bin\Release\System.ValueTuple.xml
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\obj\Release\pbserver_battle.csprojAssemblyReference.cache
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\obj\Release\pbserver_battle.csproj.CoreCompileInputs.cache
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\obj\Release\pbserver_battle.csproj.CopyComplete
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\obj\Release\pbserver_battle.exe
+D:\#\1806180020 - (Omer)\SCR\pbserver_battle\obj\Release\pbserver_battle.pdb

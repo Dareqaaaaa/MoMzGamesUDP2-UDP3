@@ -1,0 +1,132 @@
+G:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank\bin\Release\Point Blank Battle.exe.config
+G:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank\bin\Release\Point Blank Battle.exe
+G:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank\obj\Release\Point Blank Battle.exe
+G:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank\bin\Release\Point Blank Battle.pdb
+G:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank\obj\Release\Point Blank Battle.pdb
+G:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank\obj\Release\Point Blank UDP.csprojResolveAssemblyReference.cache
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank\bin\Release\Point Blank Battle.exe.config
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank\obj\Release\Point Blank Battle.exe
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank\obj\Release\Point Blank Battle.pdb
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank\bin\Release\Point Blank Battle.exe
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank\bin\Release\Point Blank Battle.pdb
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank\obj\Release\Point Blank UDP.csprojResolveAssemblyReference.cache
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - Copia (2)\bin\Release\Point Blank Battle.exe.config
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - Copia (2)\obj\Release\Point Blank Battle.exe
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - Copia (2)\obj\Release\Point Blank Battle.pdb
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - Copia (2)\bin\Release\Point Blank Battle.exe
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - Copia (2)\bin\Release\Point Blank Battle.pdb
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - Copia (2)\obj\Release\Point Blank UDP.csprojResolveAssemblyReference.cache
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - Copia (2)\bin\Release\Point Blank Battle.exe.config
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - Copia (2)\obj\Release\Point Blank Battle.exe
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - Copia (2)\obj\Release\Point Blank Battle.pdb
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - Copia (2)\bin\Release\Point Blank Battle.exe
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - Copia (2)\bin\Release\Point Blank Battle.pdb
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - Copia (2)\obj\Release\Point Blank UDP.csprojResolveAssemblyReference.cache
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\Point Blank Battle.exe.config
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\obj\Release\Point Blank Battle.exe
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\obj\Release\Point Blank Battle.pdb
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\Point Blank Battle.exe
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\Point Blank Battle.pdb
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\Npgsql.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\Npgsql.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\SharpDX.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\SharpDX.Mathematics.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\SharpDX.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\SharpDX.Mathematics.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\obj\Release\Point Blank UDP.csprojResolveAssemblyReference.cache
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\System.Threading.Tasks.Extensions.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\System.Threading.Tasks.Extensions.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\CrashReporter.NET.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\CrashReporter.NET.pdb
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\CrashReporter.NET.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\da\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\de\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\es\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\fr\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\it\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\nl\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\pl\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\ru\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\sv\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\tr\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\Point Blank Battle.exe.config
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\obj\Release\Point Blank Battle.exe
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\obj\Release\Point Blank Battle.pdb
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\Point Blank Battle.exe
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\Point Blank Battle.pdb
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\CrashReporter.NET.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\Npgsql.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\SharpDX.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\SharpDX.Mathematics.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\System.Threading.Tasks.Extensions.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\CrashReporter.NET.pdb
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\CrashReporter.NET.xml
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\Npgsql.xml
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\SharpDX.xml
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\SharpDX.Mathematics.xml
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\System.Threading.Tasks.Extensions.xml
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\da\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\de\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\es\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\fr\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\it\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\nl\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\pl\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\ru\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\sv\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\bin\Release\tr\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\Point Blank - udp3\obj\Release\Point Blank UDP.csprojResolveAssemblyReference.cache
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\Point Blank Battle.exe.config
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\obj\Release\Point Blank Battle.exe
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\obj\Release\Point Blank Battle.pdb
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\Point Blank Battle.exe
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\Point Blank Battle.pdb
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\CrashReporter.NET.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\Npgsql.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\SharpDX.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\SharpDX.Mathematics.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\CrashReporter.NET.pdb
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\CrashReporter.NET.xml
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\Npgsql.xml
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\SharpDX.xml
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\SharpDX.Mathematics.xml
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.xml
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\da\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\de\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\es\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\fr\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\it\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\nl\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\pl\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\ru\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\sv\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\tr\CrashReporter.NET.resources.dll
+E:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\obj\Release\Point Blank UDP.csprojResolveAssemblyReference.cache
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\Point Blank Battle.exe.config
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\obj\Release\Point Blank Battle.exe
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\obj\Release\Point Blank UDP.csprojResolveAssemblyReference.cache
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\Point Blank Battle.exe
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\Point Blank Battle.pdb
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\CrashReporter.NET.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\Npgsql.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\SharpDX.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\SharpDX.Mathematics.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\CrashReporter.NET.pdb
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\CrashReporter.NET.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\Npgsql.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\SharpDX.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\SharpDX.Mathematics.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\System.Threading.Tasks.Extensions.xml
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\da\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\de\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\es\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\fr\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\it\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\nl\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\pl\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\ru\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\sv\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\bin\Release\tr\CrashReporter.NET.resources.dll
+F:\Não quero perder\Coisas do PB\Servidor\Project Blackout Battle\pbserver_udp3\obj\Release\Point Blank Battle.pdb
