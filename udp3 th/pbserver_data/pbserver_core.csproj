@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FAAD9862-0DC1-4000-BDE6-84B195A35EC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>pbserver_core</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Npgsql, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Npgsql.4.0.0\lib\net451\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigFile.cs" />
+    <Compile Include="ConfigGB.cs" />
+    <Compile Include="managers\BanManager.cs" />
+    <Compile Include="managers\events\EventLoader.cs" />
+    <Compile Include="models\account\AccountStatus.cs" />
+    <Compile Include="models\account\VisitBox.cs" />
+    <Compile Include="models\account\clan\ClanBestPlayers.cs" />
+    <Compile Include="models\account\players\FriendSystem.cs" />
+    <Compile Include="models\account\players\PlayerConfig.cs" />
+    <Compile Include="models\account\players\PlayerBonus.cs" />
+    <Compile Include="models\account\Friend.cs" />
+    <Compile Include="models\account\Message.cs" />
+    <Compile Include="models\account\clan\Clan.cs" />
+    <Compile Include="models\account\clan\ClanInvite.cs" />
+    <Compile Include="models\account\players\PlayerEquipedItems.cs" />
+    <Compile Include="models\account\players\PlayerInfo.cs" />
+    <Compile Include="models\enums\errors\HackType.cs" />
+    <Compile Include="models\enums\flags\clientside\RoomStageFlag.cs" />
+    <Compile Include="models\enums\global\ChattingType.cs" />
+    <Compile Include="models\enums\global\ClientLocale.cs" />
+    <Compile Include="models\enums\room\RoomSpecial.cs" />
+    <Compile Include="models\enums\gameserver\SGameServer_Type.cs" />
+    <Compile Include="models\enums\flags\clientside\RoomWeaponsFlag.cs" />
+    <Compile Include="models\enums\room\VoteKickMotive.cs" />
+    <Compile Include="server\ComDiv.cs" />
+    <Compile Include="models\enums\AccessLevel.cs" />
+    <Compile Include="models\enums\flags\serverside\DeadEnum.cs" />
+    <Compile Include="models\enums\flags\clientside\CupomEffects.cs" />
+    <Compile Include="models\enums\friends\FriendChangeState.cs" />
+    <Compile Include="models\enums\friends\FriendState.cs" />
+    <Compile Include="models\enums\battle\CharaKillType.cs" />
+    <Compile Include="models\enums\NoteMessageClan.cs" />
+    <Compile Include="models\enums\errors\EventErrorEnum.cs" />
+    <Compile Include="models\enums\item\ITEM_CLASS.cs" />
+    <Compile Include="models\enums\ITEM_TAG.cs" />
+    <Compile Include="models\enums\battle\KillingMessage.cs" />
+    <Compile Include="models\enums\flags\clientside\GameModeFlag.cs" />
+    <Compile Include="models\enums\match\MatchState.cs" />
+    <Compile Include="models\enums\item\ClassType.cs" />
+    <Compile Include="models\enums\battle\CharaDeath.cs" />
+    <Compile Include="models\enums\battle\RoundEndType.cs" />
+    <Compile Include="models\enums\missions\MISSION_TYPE.cs" />
+    <Compile Include="models\enums\missions\REQUI_TYPE.cs" />
+    <Compile Include="models\enums\flags\clientside\ResultIcon.cs" />
+    <Compile Include="models\enums\room\RoomType.cs" />
+    <Compile Include="models\enums\room\SERVER_UDP_STATE.cs" />
+    <Compile Include="models\enums\match\SlotMatchState.cs" />
+    <Compile Include="models\enums\battle\TeamResultType.cs" />
+    <Compile Include="models\enums\room\CountDownEnum.cs" />
+    <Compile Include="models\account\mission\CardAwards.cs" />
+    <Compile Include="models\account\mission\MisAwards.cs" />
+    <Compile Include="models\account\players\PlayerMissions.cs" />
+    <Compile Include="models\randombox\RandomBoxItem.cs" />
+    <Compile Include="models\randombox\RandomBoxModel.cs" />
+    <Compile Include="models\account\players\ItemsModel.cs" />
+    <Compile Include="models\account\players\PlayerEvent.cs" />
+    <Compile Include="models\account\players\PlayerInventory.cs" />
+    <Compile Include="models\account\players\PlayerStats.cs" />
+    <Compile Include="models\account\rank\RankModel.cs" />
+    <Compile Include="models\enums\flags\clientside\InventoryFlag.cs" />
+    <Compile Include="server\DBQuery.cs" />
+    <Compile Include="server\ReceiveGPacket.cs" />
+    <Compile Include="models\room\Frag.cs" />
+    <Compile Include="models\room\FragInfos.cs" />
+    <Compile Include="models\enums\room\RoomState.cs" />
+    <Compile Include="models\room\SLOT.cs" />
+    <Compile Include="models\room\SLOT_CHANGE.cs" />
+    <Compile Include="models\enums\room\SLOT_STATE.cs" />
+    <Compile Include="models\room\VoteKick.cs" />
+    <Compile Include="server\SafeList.cs" />
+    <Compile Include="server\SendGPacket.cs" />
+    <Compile Include="models\shop\GoodItem.cs" />
+    <Compile Include="models\account\title\PlayerTitles.cs" />
+    <Compile Include="models\account\title\TitleA.cs" />
+    <Compile Include="models\account\title\TitleQ.cs" />
+    <Compile Include="filters\NickFilter.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="managers\CupomEffectManager.cs" />
+    <Compile Include="managers\events\EventVisitSyncer.cs" />
+    <Compile Include="managers\events\EventLoginSyncer.cs" />
+    <Compile Include="managers\events\EventMapSyncer.cs" />
+    <Compile Include="managers\events\EventPlayTimeSyncer.cs" />
+    <Compile Include="managers\events\EventQuestSyncer.cs" />
+    <Compile Include="managers\events\EventRankUpSyncer.cs" />
+    <Compile Include="managers\events\EventXmasSyncer.cs" />
+    <Compile Include="managers\MessageManager.cs" />
+    <Compile Include="managers\MissionManager.cs" />
+    <Compile Include="managers\PlayerManager.cs" />
+    <Compile Include="managers\server\ServerConfigSyncer.cs" />
+    <Compile Include="managers\ShopManager.cs" />
+    <Compile Include="managers\TitleManager.cs" />
+    <Compile Include="models\servers\GameServerModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="server\SendPacket.cs" />
+    <Compile Include="server\StringUtil.cs" />
+    <Compile Include="server\TimerState.cs" />
+    <Compile Include="sql\SQLjec.cs" />
+    <Compile Include="Translation.cs" />
+    <Compile Include="xml\DirectXML.cs" />
+    <Compile Include="xml\RandomBoxXML.cs" />
+    <Compile Include="xml\MapsXML.cs" />
+    <Compile Include="models\account\mission\MissionItemAward.cs" />
+    <Compile Include="xml\MissionAwards.cs" />
+    <Compile Include="xml\MissionsXML.cs" />
+    <Compile Include="xml\ClanRankXML.cs" />
+    <Compile Include="xml\MissionCardXML.cs" />
+    <Compile Include="xml\ServersXML.cs" />
+    <Compile Include="xml\BasicInventoryXML.cs" />
+    <Compile Include="xml\RankXML.cs" />
+    <Compile Include="xml\TitleAwardsXML.cs" />
+    <Compile Include="xml\TitlesXML.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

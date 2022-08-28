@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F6DE407-E436-4FD2-91E7-FBD908C91F2F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Game</RootNamespace>
+    <AssemblyName>pbserver_game</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>default</LangVersion>
+    <FileAlignment>512</FileAlignment>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>default</LangVersion>
+    <DebugSymbols>true</DebugSymbols>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon3.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrashReporter.NET, Version=1.5.4.0, Culture=neutral, PublicKeyToken=7828e0fd88cab698, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrashReporter.NET.Official.1.5.4\lib\net40\CrashReporter.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Npgsql, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Npgsql.4.0.0\lib\net451\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigGS.cs" />
+    <Compile Include="Credits.cs" />
+    <Compile Include="data\chat\AFK_Interaction.cs" />
+    <Compile Include="data\chat\ChangeChannelNotice.cs" />
+    <Compile Include="data\chat\ChangeServerMode.cs" />
+    <Compile Include="data\chat\ChangeUdpType.cs" />
+    <Compile Include="data\chat\CreateItem.cs" />
+    <Compile Include="data\chat\EnableMissions.cs" />
+    <Compile Include="data\chat\Ban.cs" />
+    <Compile Include="data\chat\ChangePlayerRank.cs" />
+    <Compile Include="data\chat\ChangeRoomInfos.cs" />
+    <Compile Include="data\chat\GMDisguises.cs" />
+    <Compile Include="data\chat\LatencyAnalyze.cs" />
+    <Compile Include="data\chat\NickHistory.cs" />
+    <Compile Include="data\chat\SetAcessToPlayer.cs" />
+    <Compile Include="data\chat\SetVipToPlayer.cs" />
+    <Compile Include="data\chat\SetCashToPlayer.cs" />
+    <Compile Include="data\chat\SetGoldToPlayer.cs" />
+    <Compile Include="data\chat\SendGoldToPlayerDev.cs" />
+    <Compile Include="data\chat\SendCashToPlayerDev.cs" />
+    <Compile Include="data\chat\ShopSearch.cs" />
+    <Compile Include="data\chat\TakeTitles.cs" />
+    <Compile Include="data\chat\PlayersCountInServer.cs" />
+    <Compile Include="data\chat\RefillShop.cs" />
+    <Compile Include="data\chat\GetRoomInfo.cs" />
+    <Compile Include="data\chat\SearchSessionClient.cs" />
+    <Compile Include="data\chat\SendGiftToPlayer.cs" />
+    <Compile Include="data\chat\SendMsgToPlayers.cs" />
+    <Compile Include="data\chat\GetAccountInfo.cs" />
+    <Compile Include="data\chat\HelpCommandList.cs" />
+    <Compile Include="data\chat\KickAllPlayers.cs" />
+    <Compile Include="data\chat\KickPlayer.cs" />
+    <Compile Include="data\chat\OpenRoomSlot.cs" />
+    <Compile Include="data\chat\SendCashToPlayer.cs" />
+    <Compile Include="data\chat\SendGoldToPlayer.cs" />
+    <Compile Include="data\chat\UnBan.cs" />
+    <Compile Include="data\sync\Game_SyncNet.cs" />
+    <Compile Include="data\sync\client_side\Net_Clan_Sync.cs" />
+    <Compile Include="data\sync\client_side\Net_Clan_Servers_Sync.cs" />
+    <Compile Include="data\sync\client_side\Net_Friend_Sync.cs" />
+    <Compile Include="data\sync\client_side\Net_Inventory_Sync.cs" />
+    <Compile Include="data\sync\client_side\Net_Player_Sync.cs" />
+    <Compile Include="data\sync\client_side\Net_Room_Death.cs" />
+    <Compile Include="data\sync\client_side\Net_Room_HitMarker.cs" />
+    <Compile Include="data\sync\client_side\Net_Room_Pass_Portal.cs" />
+    <Compile Include="data\sync\client_side\Net_Room_C4.cs" />
+    <Compile Include="data\sync\client_side\Net_Room_Sabotage_Sync.cs" />
+    <Compile Include="data\sync\client_side\Net_Server_Warning.cs" />
+    <Compile Include="data\sync\server_side\BATTLE_LEAVE_SYNC.cs" />
+    <Compile Include="data\sync\server_side\SEND_CLAN_INFOS.cs" />
+    <Compile Include="data\sync\server_side\SEND_FRIENDS_INFOS.cs" />
+    <Compile Include="data\sync\server_side\SEND_ITEM_INFO.cs" />
+    <Compile Include="data\managers\ClassicModeManager.cs" />
+    <Compile Include="data\managers\NickHistoryManager.cs" />
+    <Compile Include="data\model\Account.cs" />
+    <Compile Include="data\model\Channel.cs" />
+    <Compile Include="data\model\Match.cs" />
+    <Compile Include="data\model\PlayerSession.cs" />
+    <Compile Include="data\model\Room.cs" />
+    <Compile Include="data\model\SLOT_MATCH.cs" />
+    <Compile Include="data\utils\ClanModel.cs" />
+    <Compile Include="data\xml\BattleServerXML.cs" />
+    <Compile Include="data\xml\ChannelsXML.cs" />
+    <Compile Include="GameClient.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_3103_REC.cs" />
+    <Compile Include="global\clientpacket\GM_Commands\A_3094_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\A_3428_REC.cs" />
+    <Compile Include="global\clientpacket\GM_Commands\A_3894_REC.cs" />
+    <Compile Include="global\clientpacket\GM_Commands\A_3890_REC.cs" />
+    <Compile Include="global\clientpacket\GM_Commands\A_3900_REC.cs" />
+    <Compile Include="global\clientpacket\GM_Commands\A_3902_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_HEARTBEAT_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_3329_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\VOTEKICK_START_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\VOTEKICK_UPDATE_REC.cs" />
+    <Compile Include="global\clientpacket\Box_Message\BOX_MESSAGE_GIFT_TAKE_REC.cs" />
+    <Compile Include="global\clientpacket\Clan_Match\CLAN_WAR_CREATE_ROOM_REC.cs" />
+    <Compile Include="global\clientpacket\Clan_Match\CLAN_WAR_JOIN_ROOM_REC.cs" />
+    <Compile Include="global\clientpacket\Event\EVENT_PLAYTIME_REWARD_REC.cs" />
+    <Compile Include="global\clientpacket\GM_Commands\GM_LOG_LOBBY_REC.cs" />
+    <Compile Include="global\clientpacket\GM_Commands\GM_LOG_ROOM_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_SERVER_PASSW_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_MESSAGE_REQUEST_INTERACT_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_CHAT_1390_REC.cs" />
+    <Compile Include="global\clientpacket\Clan_Match\CLAN_WAR_ACCEPT_BATTLE_REC.cs" />
+    <Compile Include="global\clientpacket\Clan_Match\CLAN_WAR_TEAM_CHATTING_REC.cs" />
+    <Compile Include="global\clientpacket\Clan_Match\CLAN_WAR_JOIN_TEAM_REC.cs" />
+    <Compile Include="global\clientpacket\Clan_Match\CLAN_WAR_PROPOSE_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_ROOM_INVITE_REC.cs" />
+    <Compile Include="global\clientpacket\Event\EVENT_VISIT_REWARD_REC.cs" />
+    <Compile Include="global\clientpacket\Room\ROOM_RANDOM_HOST2_REC.cs" />
+    <Compile Include="global\clientpacket\Auth\AUTH_WEB_CASH_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_SERVER_LIST_REFRESH_REC.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_3104_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_TITLE_2626_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_2612_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CHANGE_FIGHTS_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CHANGE_POINTS_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CHANGE_NAME_COLOR_PAK.cs" />
+    <Compile Include="global\serverpacket\Message\SERVER_MESSAGE_DISCONNECT_PAK.cs" />
+    <Compile Include="global\serverpacket\A_3096_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_CHAT_ERROR_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\A_3329_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_HACK_DETECTED_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\A_3428_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_ENDBATTLE_PAK.cs" />
+    <Compile Include="global\serverpacket\Box_Message\BOX_MESSAGE_GIFT_TAKE_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_SERVER_LIST_REFRESH_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_CREATED_ROOM_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_JOINED_ROOM_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_ENEMY_INFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_REFUSE_BATTLE_PAK.cs" />
+    <Compile Include="global\serverpacket\Friend\FRIEND_INVITE_FOR_ROOM_PAK.cs" />
+    <Compile Include="global\serverpacket\GM_Commands\GM_LOG_LOBBY_PAK.cs" />
+    <Compile Include="global\serverpacket\GM_Commands\GM_LOG_ROOM_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CHANGE_LOGO_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CHANGE_NAME_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_SERVER_PASSW_PAK.cs" />
+    <Compile Include="global\serverpacket\Auth\AUTH_WEB_CASH_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_GET_CLAN_MEMBERS_PAK.cs" />
+    <Compile Include="global\serverpacket\Friend\FRIEND_MY_FRIENDLIST_PAK.cs" />
+    <Compile Include="global\serverpacket\BATTLE_4VS4_ERROR_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_RECORD_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_MISSION_ESCAPE_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_READY_ERROR_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CHAT_1390_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_NEW_INFOS_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_PRIVILEGES_AUX_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_PRIVILEGES_DEMOTE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_PRIVILEGES_KICK_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_PRIVILEGES_MASTER_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_MEMBER_INFO_UPDATE_PAK.cs" />
+    <Compile Include="global\serverpacket\Friend\FRIEND_ACCEPT_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_RANDOM_HOST_PAK.cs" />
+    <Compile Include="global\serverpacket\Message\SERVER_MESSAGE_ITEM_RECEIVE_PAK.cs" />
+    <Compile Include="global\serverpacket\HELPER_PAK.cs" />
+    <Compile Include="global\serverpacket\Auth\AUTH_RANDOM_BOX_REWARD_PAK.cs" />
+    <Compile Include="global\serverpacket\Box_Message\BOX_MESSAGE_GIFT_RECEIVE_PAK.cs" />
+    <Compile Include="global\serverpacket\Box_Message\BOX_MESSAGE_CHECK_READED_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_MESSAGE_REQUEST_ACCEPT_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_ROOM_INVITE_RESULT_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_ACCEPTED_BATTLE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_MATCH_REQUEST_BATTLE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_TEAM_CHATTING_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_JOIN_TEAM_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_REGIST_MERCENARY_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_MATCH_PROPOSE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_MEMBER_INFO_INSERT_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_MEMBER_INFO_DELETE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_REPLACE_NOTICE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_REPLACE_INTRO_PAK.cs" />
+    <Compile Include="global\serverpacket\Event\EVENT_VISIT_REWARD_PAK.cs" />
+    <Compile Include="global\serverpacket\Friend\FRIEND_INVITE_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_USER_EXIT_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_QUEST_GET_INFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_CHANGE_SLOTS_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_CLOSE_SLOT_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_INSPECTPLAYER_PAK.cs" />
+    <Compile Include="global\serverpacket\Message\SERVER_MESSAGE_ERROR_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\VOTEKICK_CANCEL_VOTE_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\VOTEKICK_KICK_WARNING_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\VOTEKICK_UPDATE_RESULT_PAK.cs" />
+    <Compile Include="global\ReceiveGamePacket.cs" />
+    <Compile Include="LoggerGS.cs" />
+    <Compile Include="data\managers\AccountManager.cs" />
+    <Compile Include="data\managers\ClanManager.cs" />
+    <Compile Include="data\utils\AllUtils.cs" />
+    <Compile Include="global\clientpacket\Box_Message\BOX_MESSAGE_REPLY_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_REQUEST_INFO_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_REQUEST_DENIAL_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_PLAYER_LEAVE_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_PRESTARTBATTLE_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_STARTBATTLE_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_TIMERSYNC_REC.cs" />
+    <Compile Include="global\clientpacket\Event\EVENT_VISIT_CONFIRM_REC.cs" />
+    <Compile Include="global\clientpacket\Friend\FRIEND_INVITE_FOR_ROOM_REC.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_PLAYED_TIME_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_PRESTARTBATTLE_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_READYBATTLE2_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_STARTBATTLE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_REQUEST_INFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_REQUEST_DENIAL_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CHANGE_MAX_PLAYERS_PAK.cs" />
+    <Compile Include="global\serverpacket\Event\EVENT_VISIT_CONFIRM_PAK.cs" />
+    <Compile Include="global\serverpacket\Friend\FRIEND_ROOM_INVITE_PAK.cs" />
+    <Compile Include="global\serverpacket\Inventory\INVENTORY_EQUIPED_ITEMS_PAK.cs" />
+    <Compile Include="global\serverpacket\Auth\AUTH_JACKPOT_NOTICE_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_USER_EFFECTS_PAK.cs" />
+    <Compile Include="global\serverpacket\Shop\SHOP_TEST2_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_GIVEUPBATTLE_PAK.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_CHECK_CREATE_INVITE_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_CREATE_INVITE_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_REQUEST_CONTEXT_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_REQUEST_ACCEPT_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_MESSAGE_INVITE_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_MSG_FOR_PLAYERS_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_CLIENT_CLAN_CONTEXT_REC.cs" />
+    <Compile Include="global\clientpacket\Clan_Match\CLAN_WAR_PARTY_CONTEXT_REC.cs" />
+    <Compile Include="global\clientpacket\Clan_Match\CLAN_WAR_PARTY_LIST_REC.cs" />
+    <Compile Include="global\clientpacket\Clan_Match\CLAN_WAR_MATCH_TEAM_CONTEXT_REC.cs" />
+    <Compile Include="global\clientpacket\Clan_Match\CLAN_WAR_LEAVE_TEAM_REC.cs" />
+    <Compile Include="global\clientpacket\CM_2584.cs" />
+    <Compile Include="global\clientpacket\Auth\AUTH_SEND_WHISPER2_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_ROOM_INFO_REC.cs" />
+    <Compile Include="global\clientpacket\Room\ROOM_CHANGE_INFO2_REC.cs" />
+    <Compile Include="global\clientpacket\Box_Message\BOX_MESSAGE_VIEW_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_CHANNEL_LIST_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_MISSION_ENTER_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_QUEST_DELETE_CARD_SET_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_PROFILE_ENTER_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_PROFILE_LEAVE_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_USER_ENTER_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_CHANGE_DIFFICULTY_LEVEL_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_RESPAWN_FOR_AI_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_MISSION_DEFENCE_INFO_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_MISSION_GENERATOR_INFO_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_DINO_DEATHBLOW_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_DEATH_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_LOADING_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_READYBATTLE_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_RESPAWN_REC.cs" />
+    <Compile Include="global\clientpacket\Box_Message\BOX_MESSAGE_DELETE_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_SERVER_CHANGE_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_CHATTING_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_CHATTING_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_CHECK_DUPLICATE_LOGO_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_CHECK_DUPLICATE_NAME_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_CREATE_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_CREATE_REQUIREMENTS_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_DEMOTE_KICK_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_DEMOTE_NORMAL_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_CLOSE_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_CLIENT_ENTER_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_GET_INFO_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_CLIENT_LEAVE_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_CLIENT_CLAN_LIST_REC.cs" />
+    <Compile Include="global\clientpacket\Clan_Match\CLAN_WAR_MATCH_TEAM_INFO_REC.cs" />
+    <Compile Include="global\clientpacket\Clan_Match\CLAN_WAR_CREATE_TEAM_REC.cs" />
+    <Compile Include="global\clientpacket\Clan_Match\CLAN_WAR_MATCH_TEAM_LIST_REC.cs" />
+    <Compile Include="global\clientpacket\Clan_Match\CLAN_WAR_UPTIME_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_REQUEST_LIST_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_MEMBER_CONTEXT_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_MEMBER_LIST_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_PLAYER_LEAVE_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_PROMOTE_AUX_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_PROMOTE_MASTER_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_PLAYER_CLEAN_INVITES_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_REPLACE_NOTICE_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_REPLACE_INTRO_REC.cs" />
+    <Compile Include="global\clientpacket\Clan\CLAN_SAVEINFO3_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_CONFIG_SAVE_REC.cs" />
+    <Compile Include="global\clientpacket\Auth\AUTH_CHECK_NICKNAME_REC.cs" />
+    <Compile Include="global\clientpacket\Friend\FRIEND_ACCEPT_REC.cs" />
+    <Compile Include="global\clientpacket\Friend\FRIEND_INVITE_REC.cs" />
+    <Compile Include="global\clientpacket\Friend\FRIEND_DELETE_REC.cs" />
+    <Compile Include="global\clientpacket\Inventory\INVENTORY_ITEM_EFFECT_REC.cs" />
+    <Compile Include="global\clientpacket\Inventory\INVENTORY_ITEM_EQUIP_REC.cs" />
+    <Compile Include="global\clientpacket\Inventory\INVENTORY_ITEM_EXCLUDE_REC.cs" />
+    <Compile Include="global\clientpacket\Lobby\LOBBY_GET_PLAYERINFO_REC.cs" />
+    <Compile Include="global\clientpacket\Lobby\LOBBY_GET_PLAYERINFO2_REC.cs" />
+    <Compile Include="global\clientpacket\Lobby\LOBBY_GET_ROOMINFO_REC.cs" />
+    <Compile Include="global\clientpacket\Lobby\LOBBY_GET_ROOMLIST_REC.cs" />
+    <Compile Include="global\clientpacket\Lobby\LOBBY_LEAVE_REC.cs" />
+    <Compile Include="global\clientpacket\Shop\SHOP_LIST_REC.cs" />
+    <Compile Include="global\clientpacket\Box_Message\BOX_MESSAGE_CREATE_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_USER_EXIT_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_GET_USER_STATS_REC.cs" />
+    <Compile Include="global\clientpacket\Room\ROOM_CHANGE_INFO_REC.cs" />
+    <Compile Include="global\clientpacket\Room\ROOM_CHANGE_PASSW_REC.cs" />
+    <Compile Include="global\clientpacket\Room\ROOM_CHANGE_HOST_REC.cs" />
+    <Compile Include="global\clientpacket\Room\ROOM_CHANGE_SLOT_REC.cs" />
+    <Compile Include="global\clientpacket\Room\ROOM_CLOSE_SLOT_REC.cs" />
+    <Compile Include="global\clientpacket\Room\ROOM_GET_PLAYERINFO_REC.cs" />
+    <Compile Include="global\clientpacket\Room\ROOM_CHANGE_TEAM_REC.cs" />
+    <Compile Include="global\clientpacket\Room\ROOM_REQUEST_HOST_REC.cs" />
+    <Compile Include="global\clientpacket\Room\ROOM_INVITE_PLAYERS_REC.cs" />
+    <Compile Include="global\clientpacket\Room\ROOM_RANDOM_HOST_REC.cs" />
+    <Compile Include="global\clientpacket\Shop\SHOP_BUY_ITEM_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_TITLE_DETACH_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_TITLE_GET_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_TITLE_USE_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_ENDTUTORIAL_REC.cs" />
+    <Compile Include="global\clientpacket\Auth\AUTH_FIND_USER_REC.cs" />
+    <Compile Include="global\clientpacket\Auth\AUTH_SEND_WHISPER_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_MISSION_SUCCESS_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_QUEST_BUY_CARD_SET_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_MISSION_BOMB_INSTALL_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_MISSION_BOMB_UNINSTALL_REC.cs" />
+    <Compile Include="global\clientpacket\Battle\BATTLE_SENDPING_REC.cs" />
+    <Compile Include="global\clientpacket\Inventory\INVENTORY_ENTER_REC.cs" />
+    <Compile Include="global\clientpacket\Inventory\INVENTORY_LEAVE_REC.cs" />
+    <Compile Include="global\clientpacket\Lobby\LOBBY_CREATE_NICK_NAME_REC.cs" />
+    <Compile Include="global\clientpacket\Lobby\LOBBY_CREATE_ROOM_REC.cs" />
+    <Compile Include="global\clientpacket\Lobby\LOBBY_ENTER_REC.cs" />
+    <Compile Include="global\clientpacket\Lobby\LOBBY_JOIN_ROOM_REC.cs" />
+    <Compile Include="global\clientpacket\Lobby\LOBBY_QUICKJOIN_ROOM_REC.cs" />
+    <Compile Include="global\clientpacket\Room\ROOM_GET_LOBBY_USER_LIST_REC.cs" />
+    <Compile Include="global\clientpacket\Base\BASE_CHANNEL_ENTER_REC.cs" />
+    <Compile Include="global\clientpacket\Shop\SHOP_ENTER_REC.cs" />
+    <Compile Include="global\clientpacket\Shop\SHOP_LEAVE_REC.cs" />
+    <Compile Include="global\serverpacket\Auth\AUTH_FIND_USER_PAK.cs" />
+    <Compile Include="global\serverpacket\Auth\AUTH_RECV_WHISPER_PAK.cs" />
+    <Compile Include="global\serverpacket\Auth\AUTH_SEND_WHISPER_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_CHANNEL_LIST_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_SERVER_LIST_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_QUEST_BUY_CARD_SET_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_QUEST_DELETE_CARD_SET_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_USER_ENTER_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_LEAVEP2PSERVER_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_MISSION_BOMB_INSTALL_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_MISSION_BOMB_UNINSTALL_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_READYBATTLE_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_RESPAWN_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_SENDPING_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CLIENT_ENTER_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CLIENT_LEAVE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CLIENT_CLAN_LIST_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CREATE_PAK.cs" />
+    <Compile Include="global\serverpacket\Inventory\INVENTORY_ENTER_PAK.cs" />
+    <Compile Include="global\serverpacket\Inventory\INVENTORY_LEAVE_PAK.cs" />
+    <Compile Include="global\serverpacket\Lobby\LOBBY_CHATTING_PAK.cs" />
+    <Compile Include="global\serverpacket\Lobby\LOBBY_CREATE_NICK_NAME_PAK.cs" />
+    <Compile Include="global\serverpacket\Lobby\LOBBY_CREATE_ROOM_PAK.cs" />
+    <Compile Include="global\serverpacket\Lobby\LOBBY_ENTER_PAK.cs" />
+    <Compile Include="global\serverpacket\Lobby\LOBBY_GET_ROOMINFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Lobby\LOBBY_GET_ROOMLIST_PAK.cs" />
+    <Compile Include="global\serverpacket\Lobby\LOBBY_JOIN_ROOM_PAK.cs" />
+    <Compile Include="global\serverpacket\Lobby\LOBBY_QUICKJOIN_ROOM_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_USER_CHANGE_STATS_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_CHANGE_PASSWD_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_GET_LOBBY_USER_LIST_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_GET_SLOTINFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_CHANNEL_ENTER_PAK.cs" />
+    <Compile Include="global\serverpacket\Message\SERVER_MESSAGE_KICK_PLAYER_PAK.cs" />
+    <Compile Include="global\serverpacket\Shop\SHOP_ENTER_PAK.cs" />
+    <Compile Include="global\serverpacket\Shop\SHOP_LEAVE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CHECK_CREATE_INVITE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CREATE_INVITE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_REQUEST_CONTEXT_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_REQUEST_ACCEPT_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CHECK_DUPLICATE_MARK_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_MESSAGE_INVITE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_MSG_FOR_PLAYERS_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CLIENT_CLAN_CONTEXT_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_PARTY_CONTEXT_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_PARTY_LIST_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_MATCH_TEAM_CONTEXT_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_LEAVE_TEAM_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_SERVER_CHANGE_PAK.cs" />
+    <Compile Include="global\serverpacket\BASE_HACK_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_COUNTDOWN_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_CHANGE_INFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Box_Message\BOX_MESSAGE_SEND_PAK.cs" />
+    <Compile Include="global\serverpacket\Auth\AUTH_ACCOUNT_KICK_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_PROFILE_ENTER_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_PROFILE_LEAVE_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_QUEST_ALERT_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_CHANGE_DIFFICULTY_LEVEL_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_RESPAWN_FOR_AI_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_MISSION_DEFENCE_INFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_MISSION_GENERATOR_INFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_DINO_PLACAR_PAK.cs" />
+    <Compile Include="global\serverpacket\Message\SERVER_MESSAGE_KICK_BATTLE_PLAYER_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_DEATH_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_QUEST_COMPLETE_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_ROOM_INFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_ROUND_RESTART_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_ROUND_WINNER_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_TIMERSYNC_PAK.cs" />
+    <Compile Include="global\serverpacket\Box_Message\BOX_MESSAGE_DELETE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CHATTING_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_CHATTING_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CHECK_DUPLICATE_NAME_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CREATE_REQUIREMENTS_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_DEPORTATION_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_COMMISSION_REGULAR_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_CLOSE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_DETAIL_INFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_MATCH_TEAM_INFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_CREATE_TEAM_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_MATCH_TEAM_LIST_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan_Match\CLAN_WAR_MATCH_UPTIME_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_REQUEST_LIST_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_MEMBER_CONTEXT_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_MEMBER_LIST_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_MEMBER_INFO_CHANGE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_PLAYER_LEAVE_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_COMMISSION_STAFF_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_COMMISSION_MASTER_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_PLAYER_CLEAN_INVITES_PAK.cs" />
+    <Compile Include="global\serverpacket\Clan\CLAN_SAVEINFO3_PAK.cs" />
+    <Compile Include="global\serverpacket\Message\SERVER_MESSAGE_ANNOUNCE_PAK.cs" />
+    <Compile Include="global\serverpacket\Inventory\INVENTORY_ITEM_CREATE_PAK.cs" />
+    <Compile Include="global\serverpacket\Auth\AUTH_CHECK_NICKNAME_PAK.cs" />
+    <Compile Include="global\serverpacket\Friend\FRIEND_REMOVE_PAK.cs" />
+    <Compile Include="global\serverpacket\Auth\AUTH_GOLD_REWARD_PAK.cs" />
+    <Compile Include="global\serverpacket\Inventory\INVENTORY_ITEM_EQUIP_PAK.cs" />
+    <Compile Include="global\serverpacket\Inventory\INVENTORY_ITEM_EXCLUDE_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_INVITE_RETURN_PAK.cs" />
+    <Compile Include="global\serverpacket\Lobby\LOBBY_GET_PLAYERINFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Lobby\LOBBY_GET_PLAYERINFO2_PAK.cs" />
+    <Compile Include="global\serverpacket\Lobby\LOBBY_LEAVE_PAK.cs" />
+    <Compile Include="global\serverpacket\Box_Message\BOX_MESSAGE_CREATE_PAK.cs" />
+    <Compile Include="global\serverpacket\Box_Message\BOX_MESSAGE_RECEIVE_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_GET_USER_STATS_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_RANK_UP_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_CHANGE_HOST_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_GET_PLAYERINFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_GET_HOST_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_INVITE_SHOW_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_NEW_HOST_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_GET_SLOTONEINFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Room\ROOM_GET_NICKNAME_PAK.cs" />
+    <Compile Include="global\serverpacket\Shop\SHOP_BUY_PAK.cs" />
+    <Compile Include="global\serverpacket\Shop\SHOP_GET_GOODS_PAK.cs" />
+    <Compile Include="global\serverpacket\Shop\SHOP_GET_ITEMS_PAK.cs" />
+    <Compile Include="global\serverpacket\Shop\SHOP_GET_MATCHING_PAK.cs" />
+    <Compile Include="global\serverpacket\Shop\SHOP_LIST_PAK.cs" />
+    <Compile Include="global\serverpacket\Shop\SHOP_GET_REPAIR_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_TITLE_DETACH_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_TITLE_GET_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\BATTLE_TUTORIAL_ROUND_END_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_QUEST_UPDATE_INFO_PAK.cs" />
+    <Compile Include="global\serverpacket\Base\BASE_TITLE_USE_PAK.cs" />
+    <Compile Include="global\serverpacket\Friend\FRIEND_UPDATE_PAK.cs" />
+    <Compile Include="global\serverpacket\Auth\AUTH_CHANGE_NICKNAME_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\VOTEKICK_CHECK_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\VOTEKICK_RESULT_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\VOTEKICK_START_PAK.cs" />
+    <Compile Include="global\serverpacket\Battle\VOTEKICK_UPDATE_PAK.cs" />
+    <Compile Include="GameManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.1 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\pbserver_data\pbserver_core.csproj">
+      <Project>{faad9862-0dc1-4000-bde6-84b195a35ec5}</Project>
+      <Name>pbserver_core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="global\clientpacket\Lottery\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
