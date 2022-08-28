@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{60B0489D-9ACD-47C3-A75D-BD5BC1B39CD2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>PBLauncher</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <DocumentationFile>
+    </DocumentationFile>
+    <LangVersion>default</LangVersion>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <FileAlignment>512</FileAlignment>
+    <NoWarn>
+    </NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\PB-Ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>PointBlank.Launcher</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Custom</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>default</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="Antihack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Antihack.Designer.cs">
+      <DependentUpon>Antihack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connection.Designer.cs">
+      <DependentUpon>Connection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Launcher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launcher.Designer.cs">
+      <DependentUpon>Launcher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modul.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Version.cs" />
+    <EmbeddedResource Include="Antihack.resx">
+      <DependentUpon>Antihack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connection.resx">
+      <DependentUpon>Connection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launcher.resx">
+      <DependentUpon>Launcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Reference Include="KuyRaiHook, Version=1.0.0.6, Culture=neutral, PublicKeyToken=519f71fc62a6cdcd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\KuyRaiHook.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\PB KUYRAI - Full\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Start_BG.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Closed_Normal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Closed_Over.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hide_Normal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hide_Over.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sss.png" />
+    <None Include="Resources\pn_lg.png" />
+    <None Include="Resources\Update_Over.bmp" />
+    <None Include="Resources\Update_Normal.bmp" />
+    <None Include="Resources\Start_Over.bmp" />
+    <None Include="Resources\Start_Normal.bmp" />
+    <None Include="Resources\Start_Disable.png" />
+    <None Include="Resources\15934446_356070298108696_1200497767_n.png" />
+    <None Include="Resources\15941907_592483340936756_95916531_n.png" />
+    <None Include="Resources\Check_Disable.png" />
+    <None Include="Resources\Check_Normal.png" />
+    <None Include="Resources\Check_Over.png" />
+    <None Include="Resources\Pause_Disable.png" />
+    <None Include="Resources\Pause_Normal.png" />
+    <None Include="Resources\Pause_Over.png" />
+    <None Include="Resources\15934446_356070298108696_1200497767_n.bmp" />
+    <None Include="Resources\BG_ONRIGINAL.bmp" />
+    <None Include="Resources\Login_Normal.bmp" />
+    <None Include="Resources\Login_Over.bmp" />
+    <None Include="Resources\Login_Disable.bmp" />
+    <None Include="Resources\kuyraiantihack.png" />
+    <None Include="Resources\bg_kr.png" />
+    <None Include="Resources\bg.png" />
+    <None Include="Resources\btn_start_v2.png" />
+    <None Include="Resources\btn_update_v2.png" />
+    <None Include="Resources\btn_check_v2.png" />
+    <None Include="Resources\btn_check_v21.png" />
+    <None Include="Resources\btn_check_v22.png" />
+    <None Include="Resources\btn_check_v23.png" />
+    <None Include="Resources\btn_pbconfig_v2.png" />
+    <None Include="Resources\btn_pbconfig_v2_over.png" />
+    <None Include="Resources\btn_start_v2_over.png" />
+    <None Include="Resources\btn_update_v2_over.png" />
+    <None Include="Resources\btn_shop.png" />
+    <None Include="Resources\btn_web.png" />
+    <None Include="Resources\btn_web1.png" />
+    <None Include="Resources\btn_shop1.png" />
+    <Content Include="Resources\0.gif" />
+    <Content Include="Resources\1.gif" />
+    <Content Include="Resources\10.gif" />
+    <Content Include="Resources\11.gif" />
+    <Content Include="Resources\12.gif" />
+    <Content Include="Resources\13.gif" />
+    <Content Include="Resources\14.gif" />
+    <Content Include="Resources\15.gif" />
+    <Content Include="Resources\16.gif" />
+    <Content Include="Resources\17.gif" />
+    <Content Include="Resources\18.gif" />
+    <Content Include="Resources\19.gif" />
+    <Content Include="Resources\2.gif" />
+    <Content Include="Resources\20.gif" />
+    <Content Include="Resources\21.gif" />
+    <Content Include="Resources\22.gif" />
+    <Content Include="Resources\23.gif" />
+    <Content Include="Resources\24.gif" />
+    <Content Include="Resources\25.gif" />
+    <Content Include="Resources\26.gif" />
+    <Content Include="Resources\27.gif" />
+    <Content Include="Resources\28.gif" />
+    <Content Include="Resources\29.gif" />
+    <Content Include="Resources\3.gif" />
+    <Content Include="Resources\30.gif" />
+    <Content Include="Resources\31.gif" />
+    <Content Include="Resources\32.gif" />
+    <Content Include="Resources\33.gif" />
+    <Content Include="Resources\34.gif" />
+    <Content Include="Resources\35.gif" />
+    <Content Include="Resources\36.gif" />
+    <Content Include="Resources\37.gif" />
+    <Content Include="Resources\38.gif" />
+    <Content Include="Resources\39.gif" />
+    <Content Include="Resources\4.gif" />
+    <Content Include="Resources\40.gif" />
+    <Content Include="Resources\41.gif" />
+    <Content Include="Resources\42.gif" />
+    <Content Include="Resources\43.gif" />
+    <Content Include="Resources\44.gif" />
+    <Content Include="Resources\45.gif" />
+    <Content Include="Resources\46.gif" />
+    <Content Include="Resources\47.gif" />
+    <Content Include="Resources\48.gif" />
+    <Content Include="Resources\49.gif" />
+    <Content Include="Resources\5.gif" />
+    <Content Include="Resources\50.gif" />
+    <Content Include="Resources\51.gif" />
+    <Content Include="Resources\52.gif" />
+    <Content Include="Resources\53.gif" />
+    <Content Include="Resources\54.gif" />
+    <Content Include="Resources\6.gif" />
+    <Content Include="Resources\7.gif" />
+    <Content Include="Resources\8.gif" />
+    <Content Include="Resources\9.gif" />
+    <None Include="Resources\lgpn.png" />
+    <Content Include="Resources\PB-Ico.ico" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
